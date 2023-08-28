@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wordscissors"
+version = "0.0.1"
+authors = [
+  { name="OMNI Analytics", email="eric@omnianalytics.org" },
+]
+maintainers = [
+  { name = "The Center for Statistics and Applications in Forensic Evidence", email = "csafe@iastate.edu" },
+]
+description = "A Python package for splitting handwritting into individual words."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "GPL-3.0-or-later"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+dependencies = [
+    "matplotlib",
+    "opencv-python"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/CSAFE-ISU/wordscissors"
+"Bug Tracker" = "https://github.com/CSAFE-ISU/wordscissors/issues"
